@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logoProyecto {
+    width: 241px;
+    height: 97px;
+}
+
+#logoCarrito {
+    width: 33px;
+    height: 67px;
+    margin-left: 500px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #D9C7B3;
+}
+
+header ul {
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li a {
+    display: block;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: #707070;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ul :hover {
+    color: #603312;
+}
+
+#imagenInicio2 {
+    width: 500px;
+    height: 264px;
+}
+
+#imagen2 {
+    background-color: #E8D9C9;
+}
+
+#mision {
+    background-color: #603312;
+    color: white;
+}
+
+#favoritos {
+    color: #603312;
+}
+
+#reviews {
+    background-color: #FF6C15;
+    color: white;
+}
+
+footer {
+    background-color: #603312;
+    color: white;
+}
+
+footer h2 {
+    color: #E8D9C9;
+}
