@@ -3,15 +3,38 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 #logoProyecto {
     width: 241px;
     height: 97px;
 }
 
+#logoProyecto2 {
+    width: 241px;
+    height: 97px;
+    margin-left: 60%;
+}
+
 #logoCarrito {
     width: 33px;
     height: 67px;
-    margin-left: 500px;
+    margin-left: 700px;
+}
+
+#nuestraHistoria {
+    background-color: #E8D9C9;
+}
+
+#cafeIdeal {
+    background-color: #FF6C15;
+}
+
+#colecciones {
+    background-color: #FF6C15;
+    color: white;
 }
 
 header {
@@ -40,13 +63,183 @@ ul :hover {
     color: #603312;
 }
 
+#imagenInicio1 {
+    background-color: #FF6C15;
+}
+
 #imagenInicio2 {
     width: 500px;
     height: 264px;
 }
 
+#inicio2 {
+    background-color: #E8D9C9;
+}
+
 #imagen2 {
     background-color: #E8D9C9;
+}
+
+#bannerNosotros {
+    width: 1441px;
+    height: 352px;
+}
+
+#segundoBanner {
+   margin-left: 28%;
+}
+
+.container-card {
+    width: 120%;
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 5%;
+    font-family: 'Alata', sans-serif;
+}
+
+.card {
+    width: 20%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card img {
+    width: 100%;
+    height: 210px;
+}
+
+.card .contenido-card {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido-card h3 {
+    margin-bottom: 15px;
+    color: #242424;
+}
+
+.card .contenido-card p {
+    line-height: 1.8;
+    color: #242424;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.card .contenido-card a {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #D9C7B3;
+    border: 1px solid #D9C7B3;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+}
+
+.card .contenido-card a:hover {
+    background: #D9C7B3;
+    color: #fff;
+}
+
+.tarjetas {
+    display: flex;
+}
+
+.card .contenido-card img {
+    width: 43px;
+    height: 48px;
+}
+
+.titulos {
+    font-family: 'Capriola', sans-serif;
+    font-size: 28px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#tituloImagen2 {
+    color: #603312;
+    font-family: 'Capriola', sans-serif;
+    font-size: 28px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#tituloImagen1 {
+    color: #fff;
+    font-family: 'Capriola', sans-serif;
+    font-size: 28px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.textoImagen2 {
+    color: #603312;
+    font-family: 'Capriola', sans-serif;
+    font-size: 28px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.botonImagen2 {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #D9C7B3;
+    border: 1px solid #603312;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+}
+
+#imagen2 h3 p {
+    color: #603312;
+    font-family: 'Capriola', sans-serif;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.textos {
+    font-family: 'Capriola', sans-serif;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#cajaReviews {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#cajaReviews img {
+    width: 144px;
+    height: 41px;
+    margin-left: 150px;
+}
+
+.reviews {
+    width: 441px;
+    height: 190px;
+    background-color: #D9C7B3;
+    display: flex;
 }
 
 #mision {

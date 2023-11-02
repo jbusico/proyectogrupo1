@@ -4,76 +4,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Brewed Harmony Coffee</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alata&family=Capriola&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
-        <a href="Logo del proyecto"><img src="./img/logoproyecto.png" alt="Logo del proyecto" id="logoProyecto"></a>
+        <a href="index.html"><img src="./img/logoproyecto.png" alt="Logo del proyecto" id="logoProyecto"></a>
 
         <ul>
             <li><a href="index.html"> Inicio </a></li>
+            <li><a href="./html/nosotros.html"> Sobre Nosotros </a></li>
             <li><a href="./html/productos.html"> Productos </a></li>
-            <li><a href="./html/nosotros.html"> Nosotros </a></li>
             <li><a href="./html/contacto.html"> Contacto </a></li>
         </ul>
 
         <a href="Logo del carrito"><img src="./img/carrito.png" alt="Logo carrito" id="logoCarrito"></a>
     </header>
 
-    <div>
-        <h3> Disfrutá de un trabajo hecho con pasión. </h3>
+    <div id="imagenInicio1">
+        <h3 id="tituloImagen1"> Disfrutá de un trabajo hecho con pasión. </h3>
+        <button class="botonImagen2"> DESCUBRÍ LO NUEVO </button>
 
         <img src="./img/imagenInicio1.jpg" alt="Imagen de inicio">
     </div>
 
-    <div>
+    <div id="inicio2">
         <img src="./img/imagenInicio2.jpg" alt="Otra imagen de inicio" id="imagenInicio2">
 
         <div id="imagen2">
-            <h3> CAMBIANDO EL MUNDO A TRAVÉS DEL CAFÉ </h3>
-            <p> En Brewed Harmony, creemos en el poder del café para hacer un cambio positivo en el mundo. </p>
-            <p> Nos enorgullecemos de ofrecerte una experiencia única que va más allá de la taza: un café de alta
-                calidad,
-                sustentable y éticamente producido. </p>
+            <h3 id="tituloImagen2"> CAMBIANDO EL MUNDO A TRAVÉS DEL CAFÉ </h3>
+            <p class="textoImagen2"> En Brewed Harmony, creemos en el poder del café para hacer un cambio positivo en el
+                mundo. </p>
+            <p class="textoImagen2"> Nos enorgullecemos de ofrecerte una experiencia única que va más allá de la taza:
+                un café de alta calidad, sustentable y éticamente producido. </p>
+            <button class="botonImagen2">CONOCÉ NUESTRA HISTORIA</button>
         </div>
     </div>
 
     <div id="mision">
-        <h2> NUESTRA MISIÓN </h2>
+        <h2 class="titulos"> NUESTRA MISIÓN </h2>
 
-        <p> En cada taza de café, llevamos a cabo nuestra misión de promover la sostenibilidad, apoyar a los
+        <p class="textos"> En cada taza de café, llevamos a cabo nuestra misión de promover la sostenibilidad, apoyar a
+            los
             agricultores locales y fomentar prácticas comerciales éticas. Cada grano que utilizamos es cuidadosamente
             seleccionado para garantizar la mejor calidad y el menor impacto en el medio ambiente. </p>
     </div>
 
     <div id="favoritos">
-        <h2> EXPLORA LOS FAVORITOS </h2>
+        <h2 class="titulos"> EXPLORA LOS FAVORITOS <br></h2>
 
-        <!-- CREAR LAS TARJETAS DE LOS PRODUCTOS FAVORITOS -->
+        <div class="tarjetas">
+            <div class="card">
+                <figure>
+                    <img src="">
+                </figure>
+                <div class="contenido-card">
+                    <h3> CAFE THREE AFRICAS </h3>
+                    <h3> ETHIOPIA UGANDA - BLEND </h3>
+                    <h4> $3.990 </h4>
+                    <a href="/"> AÑADIR AL CARRITO </a>
+                    <img src="../img/favorito.png" alt="Favoritos">
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="">
+                </figure>
+                <div class="contenido-card">
+                    <h3> CAFE MEDIUM ROAST </h3>
+                    <h3> GUATEMALA COLOMBIA - BLEND </h3>
+                    <h4> $3.990 </h4>
+                    <a href="/"> AÑADIR AL CARRITO </a>
+                    <img src="../img/favorito.png" alt="Favoritos">
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="">
+                </figure>
+                <div class="contenido-card">
+                    <h3> CAFE PERU CAJAMARCA -</h3>
+                    <h3> DESCAFEINADO </h3>
+                    <h4> $3.990 </h4>
+                    <a href="/"> AÑADIR AL CARRITO </a>
+                    <img src="../img/favorito.png" alt="Favoritos">
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="">
+                </figure>
+                <div class="contenido-card">
+                    <h3> CAFE UGANDA ROBUSTA </h3>
+                    <h3> BUJANGA - BLEND </h3>
+                    <h4> $3.990 </h4>
+                    <a href="/"> AÑADIR AL CARRITO </a>
+                    <img src="../img/favorito.png" alt="Favoritos">
+                </div>
+            </div>
+
+            <div class="card">
+                <figure>
+                    <img src="">
+                </figure>
+                <div class="contenido-card">
+                    <h3> CAFE COSTA RICA </h3>
+                    <h3> CATURRA CATUAI - ORIGIN </h3>
+                    <h4> $3.990 </h4>
+                    <a href="/"> AÑADIR AL CARRITO </a>
+                    <img src="../img/favorito.png" alt="Favoritos">
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="reviews">
-        <h2> REVIEWS </h2>
-
+        <h2 class="titulos"> REVIEWS </h2>
         <!-- CREAR LAS TARJETAS PARA LAS REVIEWS -->
+
+        <div id="cajaReviews">
+            <div class="reviews">
+                <img src="img/estrellas.png" alt="Estrellas para puntuar">
+
+                <h4> SORPRENDENTEMENTE BUENO Y SOSTENIBLE </h4>
+                <p> "He probado muchas marcas de café, pero esta se lleva la </p>
+                <p> palma. La calidad es excepcional y el hecho de que sea una </p>
+                <p> marca comprometida con la sostenibilidad hace que sea una </p>
+                <p> elección fácil. ¡No puedo esperar a probar más variedades!" </p>
+            </div>
+
+            <div class="reviews">
+                <img src="img/estrellas.png" alt="Estrellas para puntuar">
+
+                <h4> UN CAFÉ RESPONSABLE CON SABOR AUTÉNTICO </h4>
+                <p> "Este café sostenible es una maravilla. Su sabor auténtico y </p>
+                <p> profundo es un placer para el paladar, pero saber que </p>
+                <p> también está haciendo bien al planeta lo convierte en una </p>
+                <p> elección fácil. ¡No puedo dejar de recomendarlo a todos!" </p>
+            </div>
+
+            <div class="reviews">
+                <img src="img/estrellas.png" alt="Estrellas para puntuar">
+
+                <h4> EL CAFÉ DE MI MAÑANA CONSCIENTE </h4>
+                <p> "Este café es una delicia para los sentidos y mi conciencia. </p>
+                <p> Saber que cada grano proviene de prácticas sostenibles es </p>
+                <p> un plus enorme. Además, el sabor es simplemente sublime. </p>
+                <p> ¡Un must en mi rutina matutina!" </p>
+            </div>
+        </div>
     </div>
 
     <footer>
-        <h2> NEWSLETTER </h2>
+        <h2 class="titulos"> NEWSLETTER </h2>
 
-        <p> Suscribíte y recibí noticias sobre café orgánico de comercio justo, ofertas especiales, novedades de la
+        <p class="textos"> Suscribíte y recibí noticias sobre café orgánico de comercio justo, ofertas especiales,
+            novedades de la
             empresa, sorteos y más! </p>
 
-        <!-- <button> CREAR BOTON PARA SUSCRIBIRSE AL NEWSLETTER </button> -->
+        <input type="text" name="" id=""> <button class="botonImagen2">SUSCRIBIRME</button>
 
-        <h4> CONTACTANOS </h4>
-        <p> (011) 1234-5678 </p>
-        <p> brewedharmony@gmail.com </p>
+        <h4 class="textos"> CONTACTANOS </h4>
+        <p class="textos"> (011) 1234-5678 </p>
+        <p class="textos"> brewedharmony@gmail.com </p>
         <br><br>
-        <p> Trabajo Grupal - Diseño y Desarrollo Web - UADE </p>
-        <p> Copyright © BREWED HARMONY COFFEE. Todos los derechos reservados </p>
+        <p class="textos"> Trabajo Grupal - Diseño y Desarrollo Web - UADE </p>
+        <p class="textos"> Copyright © BREWED HARMONY COFFEE. Todos los derechos reservados </p>
 
         <div>
             <img src="./img/logoproyecto.png" alt="Logo del proyecto">
