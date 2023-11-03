@@ -27,14 +27,20 @@
     </header>
 
     <div id="imagenInicio1">
-        <h3 id="tituloImagen1"> Disfrutá de un trabajo hecho con pasión. </h3>
-        <button class="botonImagen2"> DESCUBRÍ LO NUEVO </button>
+        <div>
+            <h3 id="tituloImagen1"> Disfrutá de un trabajo hecho con pasión. </h3>
+            <button class="botonImagen2"> DESCUBRÍ LO NUEVO </button>
+        </div>
 
-        <img src="./img/imagenInicio1.jpg" alt="Imagen de inicio">
+        <div id="bannerInicio">
+            
+        </div>
     </div>
 
     <div id="inicio2">
-        <img src="./img/imagenInicio2.jpg" alt="Otra imagen de inicio" id="imagenInicio2">
+        <div id="imagenInicio2">
+            <!-- <img src="./img/imagenInicio2.jpg" alt="Otra imagen de inicio" > -->
+        </div>
 
         <div id="imagen2">
             <h3 id="tituloImagen2"> CAMBIANDO EL MUNDO A TRAVÉS DEL CAFÉ </h3>
@@ -55,72 +61,82 @@
             seleccionado para garantizar la mejor calidad y el menor impacto en el medio ambiente. </p>
     </div>
 
-    <div id="favoritos">
+    <div class="favoritos">
         <h2 class="titulos"> EXPLORA LOS FAVORITOS <br></h2>
 
         <div class="tarjetas">
             <div class="card">
                 <figure>
-                    <img src="">
+                    <img src="./img/threeAfricas.png">
                 </figure>
                 <div class="contenido-card">
                     <h3> CAFE THREE AFRICAS </h3>
                     <h3> ETHIOPIA UGANDA - BLEND </h3>
                     <h4> $3.990 </h4>
-                    <a href="/"> AÑADIR AL CARRITO </a>
-                    <img src="../img/favorito.png" alt="Favoritos">
+                    <a href="#"> AÑADIR AL CARRITO </a>
+                    <button>
+                        <img src="./img/favorito.png" alt="Favoritos">
+                    </button>
                 </div>
             </div>
 
             <div class="card">
                 <figure>
-                    <img src="">
+                    <img src="./img/mediumRoast.png">
                 </figure>
                 <div class="contenido-card">
                     <h3> CAFE MEDIUM ROAST </h3>
                     <h3> GUATEMALA COLOMBIA - BLEND </h3>
                     <h4> $3.990 </h4>
                     <a href="/"> AÑADIR AL CARRITO </a>
-                    <img src="../img/favorito.png" alt="Favoritos">
+                    <button>
+                        <img src="./img/favorito.png" alt="Favoritos">
+                    </button>
                 </div>
             </div>
 
             <div class="card">
                 <figure>
-                    <img src="">
+                    <img src="./img/peru.png">
                 </figure>
                 <div class="contenido-card">
                     <h3> CAFE PERU CAJAMARCA -</h3>
                     <h3> DESCAFEINADO </h3>
                     <h4> $3.990 </h4>
                     <a href="/"> AÑADIR AL CARRITO </a>
-                    <img src="../img/favorito.png" alt="Favoritos">
+                    <button>
+                        <img src="./img/favorito.png" alt="Favoritos">
+                    </button>
                 </div>
             </div>
 
             <div class="card">
                 <figure>
-                    <img src="">
+                    <img src="./img/bujanga.png">
                 </figure>
                 <div class="contenido-card">
                     <h3> CAFE UGANDA ROBUSTA </h3>
                     <h3> BUJANGA - BLEND </h3>
                     <h4> $3.990 </h4>
                     <a href="/"> AÑADIR AL CARRITO </a>
-                    <img src="../img/favorito.png" alt="Favoritos">
+                    <button>
+                        <img src="./img/favorito.png" alt="Favoritos">
+                    </button>
                 </div>
             </div>
 
             <div class="card">
                 <figure>
-                    <img src="">
+                    <img src="./img/costaRica.png">
                 </figure>
                 <div class="contenido-card">
                     <h3> CAFE COSTA RICA </h3>
                     <h3> CATURRA CATUAI - ORIGIN </h3>
                     <h4> $3.990 </h4>
                     <a href="/"> AÑADIR AL CARRITO </a>
-                    <img src="../img/favorito.png" alt="Favoritos">
+                    <button>
+                        <img src="./img/favorito.png" alt="Favoritos">
+                    </button>
                 </div>
             </div>
         </div>
@@ -128,37 +144,35 @@
 
     <div id="reviews">
         <h2 class="titulos"> REVIEWS </h2>
-        <!-- CREAR LAS TARJETAS PARA LAS REVIEWS -->
 
         <div id="cajaReviews">
             <div class="reviews">
                 <img src="img/estrellas.png" alt="Estrellas para puntuar">
-
-                <h4> SORPRENDENTEMENTE BUENO Y SOSTENIBLE </h4>
-                <p> "He probado muchas marcas de café, pero esta se lleva la </p>
-                <p> palma. La calidad es excepcional y el hecho de que sea una </p>
-                <p> marca comprometida con la sostenibilidad hace que sea una </p>
-                <p> elección fácil. ¡No puedo esperar a probar más variedades!" </p>
+                <h4 class="tituloReview"> SORPRENDENTEMENTE BUENO Y SOSTENIBLE </h4>
+                <p class="textoReview"> "He probado muchas marcas de café, pero esta se lleva la </p>
+                <p class="textoReview"> palma. La calidad es excepcional y el hecho de que sea una </p>
+                <p class="textoReview"> marca comprometida con la sostenibilidad hace que sea una </p>
+                <p class="textoReview"> elección fácil. ¡No puedo esperar a probar más variedades!" </p>
             </div>
 
             <div class="reviews">
                 <img src="img/estrellas.png" alt="Estrellas para puntuar">
 
-                <h4> UN CAFÉ RESPONSABLE CON SABOR AUTÉNTICO </h4>
-                <p> "Este café sostenible es una maravilla. Su sabor auténtico y </p>
-                <p> profundo es un placer para el paladar, pero saber que </p>
-                <p> también está haciendo bien al planeta lo convierte en una </p>
-                <p> elección fácil. ¡No puedo dejar de recomendarlo a todos!" </p>
+                <h4 class="tituloReview"> UN CAFÉ RESPONSABLE CON SABOR AUTÉNTICO </h4>
+                <p class="textoReview"> "Este café sostenible es una maravilla. Su sabor auténtico y </p>
+                <p class="textoReview"> profundo es un placer para el paladar, pero saber que </p>
+                <p class="textoReview"> también está haciendo bien al planeta lo convierte en una </p>
+                <p class="textoReview"> elección fácil. ¡No puedo dejar de recomendarlo a todos!" </p>
             </div>
 
             <div class="reviews">
                 <img src="img/estrellas.png" alt="Estrellas para puntuar">
 
-                <h4> EL CAFÉ DE MI MAÑANA CONSCIENTE </h4>
-                <p> "Este café es una delicia para los sentidos y mi conciencia. </p>
-                <p> Saber que cada grano proviene de prácticas sostenibles es </p>
-                <p> un plus enorme. Además, el sabor es simplemente sublime. </p>
-                <p> ¡Un must en mi rutina matutina!" </p>
+                <h4 class="tituloReview"> EL CAFÉ DE MI MAÑANA CONSCIENTE </h4>
+                <p class="textoReview"> "Este café es una delicia para los sentidos y mi conciencia. </p>
+                <p class="textoReview"> Saber que cada grano proviene de prácticas sostenibles es </p>
+                <p class="textoReview"> un plus enorme. Además, el sabor es simplemente sublime. </p>
+                <p class="textoReview"> ¡Un must en mi rutina matutina!" </p>
             </div>
         </div>
     </div>
@@ -170,7 +184,8 @@
             novedades de la
             empresa, sorteos y más! </p>
 
-        <input type="text" name="" id=""> <button class="botonImagen2">SUSCRIBIRME</button>
+        <input type="text" name="mail" id="mail" required placeholder="Ingresá tu correo electrónico"> <button
+            class="botonInput">SUSCRIBIRME</button>
 
         <h4 class="textos"> CONTACTANOS </h4>
         <p class="textos"> (011) 1234-5678 </p>
@@ -180,7 +195,7 @@
         <p class="textos"> Copyright © BREWED HARMONY COFFEE. Todos los derechos reservados </p>
 
         <div>
-            <img src="./img/logoproyecto.png" alt="Logo del proyecto">
+            <img src="./img/logoProyecto2.png" alt="Logo del proyecto">
 
             <!-- AGREGAR LOS BOTONES DE LAS REDES -->
         </div>

@@ -26,11 +26,12 @@
         <a href="Logo del carrito"><img src="../img/carrito.png" alt="Logo carrito" id="logoCarrito"></a>
     </header>
 
-    <div>
-        <img src="../img/bannerNosotros.jpg" alt="banner sobre nosotros" id="bannerNosotros">
+    <div id="bannerNosotros">
+        <img src="../img/bannerNosotros.jpg" alt="banner sobre nosotros">
     </div>
 
-    <div>
+    <div id="bannerGranos">
+        <img src="../img/granos.png" alt="Granos de café">
         <h4> Cada taza es la culminación de años de trabajo, travesías de tres mil millas, y pasión. </h4>
         <h4> Estos son los pasos que damos para asegurarnos de que cada sorbo sea perfecto. </h4>
         <h4> Desde nuestro inicio, Brewed Harmony ha sido un negocio orientado por un propósito, </h4>
@@ -42,39 +43,47 @@
     <div id="nuestraHistoria">
         <h2> NUESTRA HISTORIA </h2>
 
+        <img src="../img/historia.png" alt="Nuestra Historia">
+
         <h4> Desde que fuimos fundados en 2022, nuestra misión ha sido combatir la plaga del mal café. </h4>
         <h4> Café que es desechable, obtenido de manera poco ética y que sabe como un accidente industrial. </h4>
-        <br>
         <h4> Por eso, nos abastecemos de manera justa y sostenible, asegurándonos de que nuestros productores </h4>
         <h4> compartan nuestro éxito. Tostamos con precisión y cuidado, garantizando que obtengamos el mejor </h4>
         <h4> sabor de cada grano que nuestros cultivadores han trabajado tan arduamente en producir. </h4>
         <h4> Y luego vendemos, asegurándonos de que nuestros cleintes vean el brillo ferviente en nuestros ojos. </h4>
-        <br>
         <h4> Porque los grandes cafés, los verdaderamente excepcionales, dependen de que cada etapa del proceso </h4>
         <h4> sea perfecta. </h4>
-        <br>
         <h4> Eso es lo que impulsa a Brewed Harmony. </h4>
 
-        <img src="../img/logoproyecto.png" alt="Logo del proyecto" id="logoProyecto2">
+        <img src="../img/logoproyecto.png" alt="Logo del proyecto" id="logoHistoria">
     </div>
 
-    <h2> LOGREMOS NUESTRAS METAS JUNTOS </h2>
-    <ul>
-        <li> Utilizamos un 100% de energía renovable y compensamos todas nuestras emisiones de CO2, incluyendo las del
-            cultivo de café, operaciones de tostado, empaque, transporte de entrada y salida, y calentamiento de agua
-            del cliente.</li>
-        <li> Compramos y utilizamos papel hecho con un 100% de contenido reciclado y reciclamos todo el papel de
-            oficina, cartuchos de tóner, cartón, vidrio, metal y plástico. </li>
-        <li> Reciclamos todas nuestras bolsas de café de arpillera vacías al donarlas a agricultores orgánicos locales
-            para supresión de malezas y control de erosión. </li>
-        <li> Reciclamos toda la cascarilla de café, el subproducto orgánico del proceso de tostado, al dárselo a
-            agricultores orgánicos locales para usarlo como enmienda de suelo rica en nitrógeno. </li>
-        <li> Donamos mucho más del 1% de nuestras ventas anuales brutas a organizaciones sociales y medioambientales.
-        </li>
-    </ul>
+    <h2 id="tituloMetas"> LOGREMOS NUESTRAS METAS JUNTOS </h2>
 
-    <img src="../img/meta1.png" alt="Meta 1">
-    <img src="../img/meta2.png" alt="Meta 2">
+    <div id="boxMetas">
+        <ul id="listaMetas">
+            <li> Utilizamos un 100% de energía renovable y compensamos todas nuestras emisiones de CO2, incluyendo las
+                del
+                cultivo de café, operaciones de tostado, empaque, transporte de entrada y salida, y calentamiento de
+                agua
+                del cliente.</li>
+            <li> Compramos y utilizamos papel hecho con un 100% de contenido reciclado y reciclamos todo el papel de
+                oficina, cartuchos de tóner, cartón, vidrio, metal y plástico. </li>
+            <li> Reciclamos todas nuestras bolsas de café de arpillera vacías al donarlas a agricultores orgánicos
+                locales
+                para supresión de malezas y control de erosión. </li>
+            <li> Reciclamos toda la cascarilla de café, el subproducto orgánico del proceso de tostado, al dárselo a
+                agricultores orgánicos locales para usarlo como enmienda de suelo rica en nitrógeno. </li>
+            <li> Donamos mucho más del 1% de nuestras ventas anuales brutas a organizaciones sociales y
+                medioambientales.
+            </li>
+        </ul>
+
+        <div>
+            <img src="../img/meta1.png" alt="Meta 1" id="meta1">
+            <img src="../img/meta2.png" alt="Meta 2" id="meta2">
+        </div>
+    </div>
 
     <div id="cafeIdeal">
         <h4> Trabajamos con algunos de los productores de café más dedicados, innovadores y conscientes del mundo. </h4>
@@ -85,7 +94,7 @@
         <button> Encuentra tu café ideal </button>
     </div>
 
-    <div>
+    <div id="prepararCafe">
         <h2> CÓMO PREPARAR EL CAFÉ </h2>
         <img src="../img/prepararCafe.png" alt="Como preparar el café">
         <h4> ¡Compartí una imágen de tu café preparado con nuestros granos Brewed Harmony </h4>
@@ -93,22 +102,24 @@
     </div>
 
     <footer>
-        <h2> NEWSLETTER </h2>
+        <h2 class="titulos"> NEWSLETTER </h2>
 
-        <p> Suscribíte y recibí noticias sobre café orgánico de comercio justo, ofertas especiales, novedades de la
+        <p class="textos"> Suscribíte y recibí noticias sobre café orgánico de comercio justo, ofertas especiales,
+            novedades de la
             empresa, sorteos y más! </p>
 
-        <!-- <button> CREAR BOTON PARA SUSCRIBIRSE AL NEWSLETTER </button> -->
+        <input type="text" name="mail" id="mail" required placeholder="Ingresá tu correo electrónico"> <button
+            class="botonInput">SUSCRIBIRME</button>
 
-        <h4> CONTACTANOS </h4>
-        <p> (011) 1234-5678 </p>
-        <p> brewedharmony@gmail.com </p>
+        <h4 class="textos"> CONTACTANOS </h4>
+        <p class="textos"> (011) 1234-5678 </p>
+        <p class="textos"> brewedharmony@gmail.com </p>
         <br><br>
-        <p> Trabajo Grupal - Diseño y Desarrollo Web - UADE </p>
-        <p> Copyright © BREWED HARMONY COFFEE. Todos los derechos reservados </p>
+        <p class="textos"> Trabajo Grupal - Diseño y Desarrollo Web - UADE </p>
+        <p class="textos"> Copyright © BREWED HARMONY COFFEE. Todos los derechos reservados </p>
 
         <div>
-            <img src="../img/logoproyecto.png" alt="Logo del proyecto">
+            <img src="../img/logoProyecto2.png" alt="Logo del proyecto">
 
             <!-- AGREGAR LOS BOTONES DE LAS REDES -->
         </div>

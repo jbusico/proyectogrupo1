@@ -18,23 +18,292 @@ body {
     margin-left: 60%;
 }
 
+#logoHistoria {
+    width: 241px;
+    height: 97px;
+    margin-left: 80%;
+}
+
+#tituloMetas {
+    color: #603312;
+    font-family: 'Capriola', sans-serif;
+    font-size: 28px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#tituloProductos {
+    color: #603312;
+    font-family: 'Capriola', sans-serif;
+    font-size: 28px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#boxMetas {
+    display: flex;
+}
+
+#listaMetas {
+    color: #603312;
+    font-family: 'Capriola', sans-serif;
+    font-size: 18px;
+    padding-top: 30px;
+    margin-left: 15px;
+}
+
+#boxMetas img {
+    width: 397px;
+    height: 194px;
+}
+
 #logoCarrito {
     width: 33px;
     height: 67px;
     margin-left: 700px;
 }
 
+#bannerContacto {
+    height: 345px;
+    background-image: url(../img/bannerContacto.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #FFF;
+}
+
+#bannerContacto h2 {
+    color: #FFF;
+    padding-left: 50px;
+    padding-top: 200px;
+    font-family: Capriola;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#cafeSostenible {
+    background-color: #D9C7B3;
+}
+
+#cafeSostenible h2 {
+    color: #603312;
+    font-family: Capriola;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#textoCafeSostenible {
+    color: #603312;
+    font-family: Capriola;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#formulario div p {
+    border: 1px solid #FF6C15;
+    border-radius: 4px;
+    width: 830px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF6C15;
+    color: #FFF;
+    font-family: Capriola;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#entradas input {
+    display: flex;
+    flex-direction: column;
+    width: 830px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #FF6C15;
+    background: rgba(232, 217, 201, 0.20);
+    margin-top: 20px;
+    font-family: Capriola;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#entradas button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 330px;
+    width: 166px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #FF6C15;
+    background: #FF6C15;
+    font-family: Capriola;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+#infoContacto {
+    background-color: #D9C7B3;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.parrafosContacto {
+    padding-left: 30px;
+    padding-top: 30px;
+    color: #603312;
+    font-family: Capriola;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#tuOpinion {
+    width: 921px;
+    border-radius: 10px;
+    background: #FF6C15;
+    color: #FFF;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 250px;
+    margin-top: 30px;
+    font-family: Capriola;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 #nuestraHistoria {
+    display: flex;
     background-color: #E8D9C9;
+}
+
+#nuestraHistoria img {
+    width: 390px;
+    height: 312px;
+}
+
+#nuestraHistoria h2 {
+    color: #603312;
+    font-family: 'Capriola', sans-serif;
+    font-size: 28px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#nuestraHistoria h4 {
+    color: #603312;
+    font-family: 'Capriola', sans-serif;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 #cafeIdeal {
     background-color: #FF6C15;
 }
 
+#cafeIdeal button {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #D9C7B3;
+    border: 1px solid #D9C7B3;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 15px;
+    margin-left: 40%;
+    width: 226px;
+    height: 45px;
+    font-family: Capriola;
+    font-size: 16px;
+}
+
+#cafeIdeal h4 {
+    color: #fff;
+    font-family: 'Capriola', sans-serif;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 400;
+}
+
+#prepararCafe {
+    background-color: #707070;
+    padding-bottom: 30px;
+}
+
+#prepararCafe h2 {
+    color: #fff;
+    font-family: 'Capriola', sans-serif;
+    font-size: 28px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#prepararCafe h4 {
+    color: #fff;
+    font-family: 'Capriola', sans-serif;
+    font-size: 18px;
+    padding-left: 30px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#prepararCafe img {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 1224px;
+    height: 365px;
+}
+
 #colecciones {
     background-color: #FF6C15;
     color: white;
+    display: flex;
+}
+
+#colecciones img {
+    width: 60%;
+}
+
+#textoColecciones {
+    color: #FFF;
+    text-align: right;
+    padding-left: 50px;
+    padding-top: 15px;
+    font-family: Capriola;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#textoColecciones p {
+    padding-bottom: 3%;
 }
 
 header {
@@ -65,15 +334,27 @@ ul :hover {
 
 #imagenInicio1 {
     background-color: #FF6C15;
+    display: flex;
+    width: 1440px;
+    height: 350px;
+}
+
+#bannerInicio {
+    background-image: url(../img/imagenInicio1.jpg);
+    background-repeat: no-repeat;
+    width: 886px;
+    height: 350px;
 }
 
 #imagenInicio2 {
-    width: 500px;
+    background-image: url(../img/imagenInicio2.jpg);
+    width: 852px;
     height: 264px;
 }
 
 #inicio2 {
     background-color: #E8D9C9;
+    display: flex;
 }
 
 #imagen2 {
@@ -85,8 +366,18 @@ ul :hover {
     height: 352px;
 }
 
+#bannerNosotros img {
+    width: 1441px;
+    height: 352px;
+}
+
+#bannerGranos {
+    display: flex;
+    background-color: #FF6C15;
+}
+
 #segundoBanner {
-   margin-left: 28%;
+    margin-left: 28%;
 }
 
 .container-card {
@@ -95,7 +386,6 @@ ul :hover {
     max-width: 1100px;
     margin: auto;
     padding-top: 5%;
-    font-family: 'Alata', sans-serif;
 }
 
 .card {
@@ -126,7 +416,14 @@ ul :hover {
 
 .card .contenido-card h3 {
     margin-bottom: 15px;
-    color: #242424;
+    color: #603312;
+    font-family: Capriola;
+}
+
+.card .contenido-card h4 {
+    color: #603312;
+    font-family: Capriola;
+    font-size: 18px;
 }
 
 .card .contenido-card p {
@@ -156,11 +453,16 @@ ul :hover {
 
 .tarjetas {
     display: flex;
+    justify-content: center;
 }
 
 .card .contenido-card img {
     width: 43px;
     height: 48px;
+}
+
+.card figure img {
+    height: 296px;
 }
 
 .titulos {
@@ -205,6 +507,42 @@ ul :hover {
     border-radius: 4px;
     transition: all 400ms ease;
     margin-bottom: 5px;
+    font-family: Capriola;
+    font-size: 16px;
+}
+
+.botonInput {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #D9C7B3;
+    border: 1px solid #603312;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+    width: 226px;
+    height: 45px;
+    font-family: Capriola;
+    font-size: 16px;
+}
+
+#mail {
+    background-color: #603312;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left: 30px;
+    width: 352px;
+    height: 40px;
+    text-align: center;
+    font-family: Capriola;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: white;
+    margin-left: 5px;
 }
 
 #imagen2 h3 p {
@@ -240,14 +578,35 @@ ul :hover {
     height: 190px;
     background-color: #D9C7B3;
     display: flex;
+    flex-direction: column;
+}
+
+.tituloReview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #603312;
+    font-family: 'Capriola', sans-serif;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.textoReview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #603312;
+    font-family: 'Capriola', sans-serif;
+    font-size: 14px;
 }
 
 #mision {
     background-color: #603312;
     color: white;
+    padding-bottom: 30px;
 }
 
-#favoritos {
+.favoritos {
     color: #603312;
 }
 
