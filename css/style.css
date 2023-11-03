@@ -197,6 +197,11 @@ body {
     background-color: #E8D9C9;
 }
 
+#textoHistoria {
+    display: flex;
+    flex-direction: row;
+}
+
 #nuestraHistoria img {
     width: 390px;
     height: 312px;
@@ -362,18 +367,37 @@ ul :hover {
 }
 
 #bannerNosotros {
-    width: 1441px;
-    height: 352px;
+    background-image: url(../img/bannerNosotros.jpg);
+    background-repeat: no-repeat;
+    display: flex;
 }
 
-#bannerNosotros img {
-    width: 1441px;
-    height: 352px;
+#bannerNosotros h2 {
+    color: #FFF;
+    font-family: Capriola;
+    font-size: 40px;
+    font-weight: 400;
 }
 
 #bannerGranos {
     display: flex;
     background-color: #FF6C15;
+    background-image: url(../img/granos.png);
+    background-repeat: repeat-x;
+    width: 100%;
+}
+
+#textoGranos {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Capriola;
+    font-size: 20px;
+    padding-left: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #segundoBanner {
@@ -622,4 +646,23 @@ footer {
 
 footer h2 {
     color: #E8D9C9;
+}
+
+#botonesRedes1 {
+    background-image: url(../img/telefono.png);
+    /* width: 100px;
+    height: 70px;
+    border-radius: 100px; */
+}
+
+#botonesRedes2 {
+    background-image: url(../img/correo.png);
+    /* width: 90px;
+    height: 80px; */
+}
+
+#botonesRedes3 {
+    /* background-image: url(../img/ubicacion.png); */
+    /* width: 100px;
+    height: 80px; */
 }
