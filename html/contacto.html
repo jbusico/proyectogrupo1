@@ -47,10 +47,13 @@
         </div>
 
         <div id="entradas">
-            <input type="text" required placeholder="Nombre y Apellido">
-            <input type="email" required placeholder="Correo Electrónico">
-            <input type="text" required placeholder="Comentario...">
-            <button> ENVIAR </button>
+            <form id="formContacto" target="_blank" method="post">
+                <input type="text" id="nombreContacto" required placeholder="Nombre y Apellido">
+                <input type="email" id="emailContacto" required placeholder="Correo Electrónico">
+                <input type="text" id="mensajeContacto" required placeholder="Comentario...">
+                <button type="submit" id="enviarContacto">ENVIAR</button>
+            </form>
+            
         </div>
     </div>
 
@@ -116,6 +119,8 @@
             <!-- AGREGAR LOS BOTONES DE LAS REDES -->
         </div>
     </footer>
+
+    <script src="../scripts/formContacto.js"></script>
 </body>
 
 </html>
