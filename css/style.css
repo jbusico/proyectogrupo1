@@ -193,21 +193,26 @@ body {
 }
 
 #nuestraHistoria {
-    display: flex;
     background-color: #E8D9C9;
 }
 
-#textoHistoria {
-    display: flex;
-    flex-direction: row;
+#imagenHistoria {
+    width: 390px;
+    height: 312px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
-#nuestraHistoria img {
+#imagenHistoria img {
     width: 390px;
     height: 312px;
 }
 
-#nuestraHistoria h2 {
+#contenedorHistoria {
+    display: flex;
+}
+
+#tituloHistoria {
     color: #603312;
     font-family: 'Capriola', sans-serif;
     font-size: 28px;
@@ -220,7 +225,7 @@ body {
     font-family: 'Capriola', sans-serif;
     font-size: 18px;
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 60px;
 }
 
 #cafeIdeal {
@@ -375,13 +380,17 @@ ul :hover {
     background-image: url(../img/bannerNosotros.jpg);
     background-repeat: no-repeat;
     display: flex;
+    width: 1441px;
+    height: 352px;
+    background-size: 1441px 352px;
 }
 
-#bannerNosotros h2 {
+#textoNosotros {
     color: #FFF;
     font-family: Capriola;
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 180px;
 }
 
 #bannerGranos {
@@ -389,7 +398,9 @@ ul :hover {
     background-color: #FF6C15;
     background-image: url(../img/granos.png);
     background-repeat: repeat-x;
-    width: 100%;
+    background-size: 1440px 167px;
+    width: 1440px;
+    height: 167px;
 }
 
 #textoGranos {
@@ -573,7 +584,7 @@ ul :hover {
 }
 
 ::placeholder {
-    color: white;
+    color: #707070;
     margin-left: 5px;
 }
 
@@ -590,6 +601,20 @@ ul :hover {
     font-size: 18px;
     padding-top: 30px;
     padding-left: 30px;
+}
+
+.textos2 {
+    color: #FFF;
+    font-family: 'Capriola', sans-serif;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#contactanos-textos li {
+    list-style: none;
 }
 
 #cajaReviews {
@@ -662,27 +687,19 @@ footer #contactanos {
     justify-content: space-between;
 }
 
-footer #contactanos-textos{
+footer #contactanos-textos {
     display: flex;
     flex-direction: column;
 }
 
-
-#botonesRedes1 {
-    background-image: url(../img/telefono.png);
-    /* width: 100px;
-    height: 70px;
-    border-radius: 100px; */
+#botonesRedes {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#botonesRedes2 {
-    background-image: url(../img/correo.png);
-    /* width: 90px;
-    height: 80px; */
-}
-
-#botonesRedes3 {
-    /* background-image: url(../img/ubicacion.png); */
-    /* width: 100px;
-    height: 80px; */
+#botonesRedes svg {
+    width: 48px;
+    height: 48px;
 }
