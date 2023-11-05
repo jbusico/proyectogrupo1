@@ -32,75 +32,24 @@
         <a href="./carrito.html"><img src="../img/carrito.png" alt="Logo carrito" id="logoCarrito"></a>
     </header>
 
-    <div id="bannerContacto">
-        <h2> CONTACTANOS </h2>
-    </div>
-
-    <div id="cafeSostenible">
-        <h2> ¡HABLEMOS DE CAFÉ SOSTENIBLE! </h2>
-
-        <div id="textoCafeSostenible">
-            <p> Estamos emocionados de conectar contigo y compartir nuestra pasión por el café sostenible. </p>
-            <p> Si tienes preguntas, sugerencias o simplemente quieres charlar sobre nuestro café, ¡no dudes en
-                contactarnos! </p>
+    <main>
+        <div id="productos-carrito">
+            <table id="tabla-productos">
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio unitario</th>
+                </tr>
+            </table>
+            <table id="tabla-precio-total">
+                <tr>
+                    <td>Precio total:</td>
+                    <td></td>
+                </tr>
+            </table>
+            <button id="boton-comprar">Comprar</button>
         </div>
-    </div>
-
-    <div id="formulario">
-        
-        <div>
-            <p> FORMULARIO DE CONTACTO </p>
-        </div>
-
-        <div id="entradas">
-            <form id="formContacto" target="_blank" method="post">
-                <input type="text" id="nombreContacto" required placeholder="Nombre y Apellido">
-                <input type="email" id="emailContacto" required placeholder="Correo Electrónico">
-                <input type="text" id="mensajeContacto" required placeholder="Comentario...">
-                <button type="submit" id="enviarContacto">ENVIAR</button>
-            </form>
-            
-        </div>
-    </div>
-
-    <div id="infoContacto">
-        <div class="parrafosContacto">
-            <p> | Correo Electrónico: </p>
-            <p> consultas@brewedharmony.com </p>
-        </div>
-        <br>
-        <div class="parrafosContacto">
-            <p> | Teléfono: </p>
-            <p> (011) 1234-5678 </p>
-        </div>
-        <br>
-        <div class="parrafosContacto">
-            <p> | Horario de Atención: </p>
-            <p> Lunes a Viernes: 9:00 AM - 6:00 PM </p>
-            <p> Sábados y Domingos: Cerrado </p>
-        </div>
-        <br>
-        <div class="parrafosContacto">
-            <p> | Encuéntranos en las Redes Sociales: </p>
-            <p> instagram.com/brewedharmonycoffee </p>
-        </div>
-        <br>
-        <div class="parrafosContacto">
-            <p> | ¿Quieres visitarnos? </p>
-            <p> Estamos ubicados en 11 de Septiembre de 1888 1990, Buenos Aires. </p>
-            <p> ¡Será un placer recibirte! </p>
-        </div>
-
-        <div id="tuOpinion">
-            <h2> TU OPINIÓN CUENTA: </h2>
-            <p> Nos encanta escuchar tus comentarios. </p>
-            <p> Comparte tus experiencias y sugerencias para que juntos sigamos </p>
-            <p> construyendo un mundo del café más sostenible. </p>
-            <p> ¡Esperamos con ansias tu mensaje! </p>
-        </div>
-    </div>
-
-
+    </main>
 
     <footer>
         <div id="newsletter"></div>
@@ -152,7 +101,9 @@
         </div>
     </footer>
 
-    <script src="../scripts/formContacto.js"></script>
+    <script src="../scripts/carrito.js">
+        window.onload = cargarProductos();
+    </script>
 </body>
 
 </html>
