@@ -60,4 +60,5 @@ function llenarTabla(producto, tabla, precio){
 
 function gracias(){
     alert("Gracias por su compra!");
+    sessionStorage.removeItem('carrito');
 }
