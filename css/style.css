@@ -716,6 +716,36 @@ footer #contactanos-textos {
     height: 48px;
 }
 
+table{
+    font-family: 'Capriola', sans-serif;
+}
+
+#productos-carrito{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-bottom: 50px;
+    
+}
+
+#productos-carrito #tabla-productos{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+#productos-carrito #boton-comprar{
+    max-width: fit-content;
+    align-self: center;
+}
+
+#productos-carrito #tabla-precio-total{
+    margin: 70px 20% 20px;
+    max-width: fit-content;
+    align-self: center;
+    text-align: center;
+}
 /* MEDIAQUERIES MOBILE*/
 
 @media (max-width: 768px) {
