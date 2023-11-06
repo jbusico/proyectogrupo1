@@ -483,7 +483,7 @@ ul :hover {
 
 .card .contenido-card a:hover {
     background: #D9C7B3;
-    color: #fff;
+    color: #FF6C15;
 }
 
 .tarjetas {
@@ -498,6 +498,23 @@ ul :hover {
 
 .card figure img {
     height: 296px;
+}
+
+.botonesProductos {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #D9C7B3;
+    border: 1px solid #D9C7B3;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+}
+
+.botonesProductos:hover {
+    color: #FF6C15;
 }
 
 .titulos {
