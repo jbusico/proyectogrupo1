@@ -719,6 +719,11 @@ footer #contactanos-textos {
 #botonesRedes svg {
     width: 48px;
     height: 48px;
+    color: #E8D9C9;
+}
+
+#botonesRedes button {
+    background-color: #603312;
 }
 
 table{
