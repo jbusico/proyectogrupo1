@@ -18,7 +18,7 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body onload="cargarProductos()">
     <header class="header">
         <a href="../index.html"><img src="../img/logoproyecto.png" alt="Logo del proyecto" id="logoProyecto"></a>
 
@@ -44,10 +44,10 @@
             <table id="tabla-precio-total">
                 <tr>
                     <td>Precio total:</td>
-                    <td></td>
+                    <td id="precio-total">0</td>
                 </tr>
             </table>
-            <button id="boton-comprar">Comprar</button>
+            <button id="boton-comprar" onclick="gracias()">Comprar</button>
         </div>
     </main>
 
@@ -101,9 +101,7 @@
         </div>
     </footer>
 
-    <script src="../scripts/carrito.js">
-        window.onload = cargarProductos();
-    </script>
+    <script src="../scripts/carrito.js"></script>
 </body>
 
 </html>

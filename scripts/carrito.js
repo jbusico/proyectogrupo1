@@ -34,3 +34,30 @@ function cargarItem(divId){
     console.log(carrito);
     sessionStorage.setItem('carrito', JSON.stringify(carrito));
 }
+
+function cargarProductos(){
+    console.log("Llegue");
+    let tablaProductos = document.getElementById('tabla-productos');
+    let listaProductos = JSON.parse(sessionStorage.getItem('carrito'));
+    let precio = 0;
+    listaProductos.forEach(producto => llenarTabla(producto, tablaProductos, precio));
+    console.log(precio);
+}
+
+function llenarTabla(producto, tabla, precio){
+   let fila = tabla.insertRow(-1);
+   let colProducto = fila.insertCell(0);
+   let colCant = fila.insertCell(1);
+   let colPrecio = fila.insertCell(2);
+   
+    colProducto.innerHTML = producto.producto;
+    colCant.innerHTML = producto.cantidad;
+    colPrecio.innerHTML = producto.precio;
+
+    precioTotal = document.getElementById('precio-total');
+    precioTotal.innerHTML = parseInt(precioTotal.textContent) + (producto.precio * 1000 * producto.cantidad);
+}
+
+function gracias(){
+    alert("Gracias por su compra!");
+}
