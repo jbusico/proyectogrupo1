@@ -76,15 +76,15 @@
         <h2 class="titulos"> EXPLORA LOS FAVORITOS <br></h2>
 
         <div class="tarjetas">
-            <div class="card">
+            <div class="card" >
                 <figure>
                     <img src="./img/threeAfricas.png">
                 </figure>
-                <div class="contenido-card">
+                <div class="contenido-card" id="card-three-africas2">
                     <h3> CAFE THREE AFRICAS </h3>
                     <h3> ETHIOPIA UGANDA - BLEND </h3>
-                    <h4> $3.990 </h4>
-                    <a href="#"> AÑADIR AL CARRITO </a>
+                    <h4 class="precio"> $3.990 </h4>
+                    <button onclick="cargarItem('card-three-africas2')" class="botonesProductos"> AÑADIR AL CARRITO </button>
                     <button>
                         <img src="./img/favorito.png" alt="Favoritos">
                     </button>
@@ -95,11 +95,11 @@
                 <figure>
                     <img src="./img/mediumRoast.png">
                 </figure>
-                <div class="contenido-card">
+                <div class="contenido-card" id="card-medium-roast2">
                     <h3> CAFE MEDIUM ROAST </h3>
                     <h3> GUATEMALA COLOMBIA - BLEND </h3>
-                    <h4> $3.990 </h4>
-                    <a href="/"> AÑADIR AL CARRITO </a>
+                    <h4 class="precio"> $3.990 </h4>
+                    <button onclick="cargarItem('card-medium-roast2')" class="botonesProductos"> AÑADIR AL CARRITO </button>
                     <button>
                         <img src="./img/favorito.png" alt="Favoritos">
                     </button>
@@ -110,11 +110,11 @@
                 <figure>
                     <img src="./img/peru.png">
                 </figure>
-                <div class="contenido-card">
+                <div class="contenido-card" id="card-peru-cajamarca2">
                     <h3> CAFE PERU CAJAMARCA -</h3>
                     <h3> DESCAFEINADO </h3>
-                    <h4> $3.990 </h4>
-                    <a href="/"> AÑADIR AL CARRITO </a>
+                    <h4 class="precio"> $3.990 </h4>
+                    <button onclick="cargarItem('card-peru-cajamarca2')" class="botonesProductos"> AÑADIR AL CARRITO </button>
                     <button>
                         <img src="./img/favorito.png" alt="Favoritos">
                     </button>
@@ -125,11 +125,11 @@
                 <figure>
                     <img src="./img/bujanga.png">
                 </figure>
-                <div class="contenido-card">
+                <div class="contenido-card" id="card-uganda-robusta2">
                     <h3> CAFE UGANDA ROBUSTA </h3>
                     <h3> BUJANGA - BLEND </h3>
-                    <h4> $3.990 </h4>
-                    <a href="/"> AÑADIR AL CARRITO </a>
+                    <h4 class="precio"> $3.990 </h4>
+                    <button onclick="cargarItem('card-uganda-robusta2')" class="botonesProductos"> AÑADIR AL CARRITO </button>
                     <button>
                         <img src="./img/favorito.png" alt="Favoritos">
                     </button>
@@ -140,11 +140,11 @@
                 <figure>
                     <img src="./img/costaRica.png">
                 </figure>
-                <div class="contenido-card">
+                <div class="contenido-card" id="card-costa-rica2">
                     <h3> CAFE COSTA RICA </h3>
                     <h3> CATURRA CATUAI - ORIGIN </h3>
-                    <h4> $3.990 </h4>
-                    <a href="/"> AÑADIR AL CARRITO </a>
+                    <h4 class="precio"> $3.990 </h4>
+                    <button onclick="cargarItem('card-costa-rica2')" class="botonesProductos"> AÑADIR AL CARRITO </button>
                     <button>
                         <img src="./img/favorito.png" alt="Favoritos">
                     </button>
@@ -238,6 +238,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="scripts/carrito.js"></script>
 </body>
 
 </html>
