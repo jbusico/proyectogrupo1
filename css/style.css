@@ -67,7 +67,7 @@ body {
     height: 345px;
     background-image: url(../img/bannerContacto.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     color: #FFF;
 }
 
@@ -513,7 +513,7 @@ ul :hover {
     margin-bottom: 5px;
 }
 
-button:active{
+button:active {
     transform: translateY(4px);
 
 }
@@ -726,36 +726,37 @@ footer #contactanos-textos {
     background-color: #603312;
 }
 
-table{
+table {
     font-family: 'Capriola', sans-serif;
 }
 
-#productos-carrito{
+#productos-carrito {
     margin-top: 70px;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     margin-bottom: 50px;
-    
+
 }
 
-#productos-carrito #tabla-productos{
+#productos-carrito #tabla-productos {
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
 }
 
-#productos-carrito #boton-comprar{
+#productos-carrito #boton-comprar {
     max-width: fit-content;
     align-self: center;
 }
 
-#productos-carrito #tabla-precio-total{
+#productos-carrito #tabla-precio-total {
     margin: 70px 20% 20px;
     max-width: fit-content;
     align-self: center;
     text-align: center;
 }
+
 /* MEDIAQUERIES MOBILE*/
 
 @media (max-width: 768px) {
@@ -928,7 +929,7 @@ table{
         background-size: 320px 320px;
         height: 320px;
     }
-    
+
     #bannerContacto h2 {
         padding-left: 0px;
     }
