@@ -346,6 +346,10 @@ ul :hover {
     color: #603312;
 }
 
+a :hover {
+    color: #603312;
+}
+
 #imagenInicio1 {
     background-color: #FF6C15;
     display: flex;
