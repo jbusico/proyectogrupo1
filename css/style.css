@@ -346,8 +346,18 @@ ul :hover {
     color: #603312;
 }
 
-a :hover {
+#logoUade {
+    margin-left: 30px;
+}
+
+.botonImagen2 a {
     color: #603312;
+    text-decoration: none;
+    transition: all 400ms ease;
+}
+
+.botonImagen2 a:hover {
+    color: #FFF;
 }
 
 #imagenInicio1 {
@@ -592,6 +602,10 @@ button:active {
     font-size: 16px;
 }
 
+.botonInput:hover {
+    color: #603312;
+}
+
 #mail {
     background-color: #603312;
     color: #fff;
@@ -602,6 +616,7 @@ button:active {
     text-align: center;
     font-family: Capriola;
     font-size: 16px;
+    transition: all 400ms ease;
 }
 
 ::placeholder {
@@ -772,6 +787,10 @@ table {
     header ul {
         display: flex;
         flex-direction: column;
+    }
+
+    html {
+        overflow-x: hidden;
     }
 
     #imagenInicio1 {
@@ -971,5 +990,9 @@ table {
     #infoContacto #tuOpinion {
         margin-left: 0px;
         width: 320px;
+    }
+
+    #contactanos #logoFooter {
+        display: none;
     }
 }
